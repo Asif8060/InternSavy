@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h1>Contact Form</h1>
+        </div>
+
+        <form action="">
+            <p>Please fill out all the * marks field</p>
+            <label for="name">Name:*</label>
+            <input type="text" id="name" name="name" required>
+    
+            <label for="email">Email:*</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="gender">Gender:</label>
+            <div id="gender">
+                
+                <input type="radio" name="gender" id="male">
+                <label for="male" class="gender">Male</label>
+                
+                <input type="radio" name="gender" id="female">
+                <label for="female" class="gender">Female</label>
+            </div>
+            
+    
+            <label for="country">Country: </label>
+            <select name="country" id="country">
+                <option value="">Select an option</option>
+                <option value="india">India</option>
+                <option value="united-states">United states</option>
+                <option value="dubai">Dubai</option>
+                <option value="pakistan">Pakistan</option>
+                <option value="china">China</option>
+                <option value="rusia">Rusia</option>
+                <option value="germany">Germany</option>
+                <option value="egypt">Egypt</option>
+                <option value="Indonesia">Indonesia</option>
+                <option value="Qatar">Qatar</option>
+            </select>
+    
+            <label for="message">Massage: </label>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+
+            <button>Send</button>
+            
+        </form>
+
+        <div class="footer">
+            <p>Made by: <i>Asif Ansari</i></p>
+            <p>&copy; All rights are reserved</p>
+        </div>
+    </div>
+    
+</body>
+</html>
