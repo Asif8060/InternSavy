@@ -435,7 +435,7 @@ footer p {
         display: flex;
         flex-direction: column;
         top: 60px;
-        left: 600px;
+        right: 18px;
         background: var(--main-red);
         border-radius: 10px;
         text-align: center;
